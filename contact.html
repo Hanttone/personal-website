@@ -11,10 +11,10 @@
     <form>
         <div>
             <select name="salutation">
-                <option value="Mr."></option>
-                <option value="Mrs."></option>
-                <option value="Ms."></option>
-                <option value="Undisclosed"></option>
+                <option value="Mr.">Mr.</option>
+                <option value="Mrs.">Mrs.</option>
+                <option value="Ms.">Ms.</option>
+                <option value="Undisclosed">Undisclosed</option>
             </select>
         </div>
         <div>
@@ -28,6 +28,14 @@
                 <input name="lastname" placeholder="Please enter your last name" type="text">
             </label>
         </div>
+        <div>
+            <input type="email" name="email" required>
+        </div>
+        <div>
+            <label>I have read everything and hereby confirm sellin you all my data</label>
+            <input type="checkbox" name="confirmed">
+        </div>
+        <button>Submit</button>
     </form>
 </body>
 </html>
