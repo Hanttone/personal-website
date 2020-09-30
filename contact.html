@@ -29,13 +29,28 @@
             </label>
         </div>
         <div>
-            <input type="email" name="email" required>
+            <label for="email">Your email</label><br>
+            <input type="email" name="email" required><br>
+            <small>we will <em>never</em> sell your email address</small>
         </div>
         <div>
             <label>I have read everything and hereby confirm sellin you all my data</label>
-            <input type="checkbox" name="confirmed">
+            <input type="checkbox" name="confirmed" required>
         </div>
-        <button>Submit</button>
+        <div>
+            <label for="message">Your message:</label><br>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="hotpink">Hotpink</label>
+            <input name="color" value="hotpink" type="radio">
+            <label for="lightpink">Lightpink</label>
+            <input name="color" value="lightpink" type="radio">
+            <label for="darkpink">Darkpink</label>
+            <input name="color" value="darkpink" type="radio">
+        </div>
+        <button type="reset">Clear all</button>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
