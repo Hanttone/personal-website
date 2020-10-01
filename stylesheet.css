@@ -41,12 +41,12 @@ a {
 }
 
 .banner {
-    display: flex;
+    display: flexbox;
     width: 100%;
 }
 
 .bannerstack {
-    flex-wrap: wrap;
+    
 }
 
 /* Interests & Contact */
