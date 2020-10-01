@@ -1,0 +1,62 @@
+body, html {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Cutive Mono', monospace, sans-serif;
+}
+
+/* NAVIGATION */
+.navwrapper {
+    width: 100%;
+    display: flex;
+    padding-left: 0;
+}
+.logo {
+    height: 2rem;
+    width: auto;
+}
+
+.navitem {
+    list-style: none;
+    margin-left: 2rem;
+    padding-top: 0.5rem;    
+}
+
+.navitem1 {
+    margin-left: 0.3rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #003B20; 
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+/* BANNER */
+
+.bannerimg {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+}
+
+.bannerstack {
+    flex-wrap: wrap;
+}
+
+/* Interests & Contact */
+.mewrapper {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.me {
+    height: auto;
+    width: 40%;
+    border-radius: 50%;
+}

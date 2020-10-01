@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Henna's coding</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Company logo">
         <nav class="navigation">
-            <ul>
+            <ul class="navwrapper">
+                <li class="navitem1"><a href="#"><img class="logo" src="logo.png" alt="Company logo"></a></li> 
                 <li class="navitem"><a href="#">Home</a></li>
                 <li class="navitem"><a href="#">Contact</a></li>
                 <li class="navitem"><a href="#">About me</a></li>
@@ -17,11 +19,13 @@
         </nav>
     </header>
     <section class="banner">
-        <h1 class="welcome">Welcome to my homepage</h1>
-        <img src="https://miro.medium.com/max/1400/0*zBu6EBAwjXXXHz-z" alt="Banner of the homepage, a misty spruce forest">
+        <h1 class="welcome bannerstack">Welcome to my homepage</h1>
+        <img class ="bannerimg bannerstack" src="banner.jpg" alt="Banner of the homepage, a misty spruce forest">
     </section>
     <main>
-        <img src="me.jpg" alt="">
+        <div class="mewrapper">
+            <img class="me" src="me.jpg" alt="">
+        </div>
         <section class="interests skills">
             <h2>Skills</h2>
                 <ul class="skills">
@@ -74,38 +78,38 @@
         </section>
         <section class="cv">
             <h2>CV</h2>
-                <h3>Work Experience</h3>
-                    <div class="experience">
-                        <h4>2019-2020</h4>
-                        <h4>Waldner Laboreinrichtungen</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, doloremque. Dolores est quas necessitatibus officia aliquam a laudantium minus voluptates quidem? Sed ullam a incidunt molestiae soluta dolor, quae voluptatem! Culpa pariatur consectetur rem deserunt sequi quibusdam ad cum tempore delectus non! Perspiciatis pariatur aut eaque in odit consectetur facere.</p>
-                    </div>
-                    <div class="experience">
-                        <h4>2018-2019</h4>
-                        <h4>Dell Technologies Inc.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur impedit in ad, quae vero tempore ullam rerum sed fugit facere necessitatibus iure adipisci ea recusandae odio quos, dignissimos quam saepe quasi, minus nostrum possimus reprehenderit numquam! Vel, mollitia? Perferendis quo magnam laboriosam doloremque magni, impedit nostrum quibusdam nihil rem mollitia excepturi quisquam ad quas temporibus sequi laudantium eum.</p>
-                    </div>
-                    <div class="experience">
-                        <h4>2017-2017</h4>
-                        <h4>Audi AG</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe odio, asperiores quos voluptatem, exercitationem reprehenderit reiciendis quia, aperiam minus possimus dolorem! Reiciendis deleniti ad at voluptatem quam odit similique recusandae quis iste esse assumenda adipisci beatae voluptatibus ullam nulla, odio fugiat expedita quos ratione tenetur alias libero deserunt. Distinctio natus aliquam eum nulla in at autem ipsam vel accusantium.</p>
-                    </div>
-                 <h3>Studies</h3>   
-                    <div class="studies">
-                        <h4>2013-2018</h4>
-                        <h4>Hanken School of Economics</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla laborum, alias, laboriosam nisi ad expedita officia ducimus vitae illo mollitia, atque suscipit omnis maiores cum perspiciatis veritatis dicta aliquid adipisci quas hic corporis. Atque quis consectetur deleniti fugit temporibus optio?   </p>
-                    </div>
-                    <div class="studies">
-                        <h4>2016-2017</h4>
-                        <h4>WFI Ingolstadt School of Management</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestias, libero eum saepe voluptatem ipsa expedita tempore adipisci vero odit perferendis alias quaerat nihil a! Et dolores explicabo deleniti optio nostrum incidunt officiis quae.</p>
-                    </div>
-                    <div class="studies">
-                        <h4>2010-2013</h4>
-                        <h4>Abo Akademi</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam eaque qui enim ea libero consequuntur ipsum rerum non provident vel similique, nihil quod, odit tempore maiores saepe repellat nostrum laudantium voluptatem molestias. Voluptatem nobis fugiat sint quasi maxime iure enim asperiores quam, harum velit incidunt? Pariatur numquam placeat earum cum?</p>
-                    </div>
+            <h3>Work Experience</h3>
+                <div class="experience">
+                    <h4>2019-2020</h4>
+                    <h4>Waldner Laboreinrichtungen</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, doloremque. Dolores est quas necessitatibus officia aliquam a laudantium minus voluptates quidem? Sed ullam a incidunt molestiae soluta dolor, quae voluptatem! Culpa pariatur consectetur rem deserunt sequi quibusdam ad cum tempore delectus non! Perspiciatis pariatur aut eaque in odit consectetur facere.</p>
+                </div>
+                <div class="experience">
+                    <h4>2018-2019</h4>
+                    <h4>Dell Technologies Inc.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur impedit in ad, quae vero tempore ullam rerum sed fugit facere necessitatibus iure adipisci ea recusandae odio quos, dignissimos quam saepe quasi, minus nostrum possimus reprehenderit numquam! Vel, mollitia? Perferendis quo magnam laboriosam doloremque magni, impedit nostrum quibusdam nihil rem mollitia excepturi quisquam ad quas temporibus sequi laudantium eum.</p>
+                </div>
+                <div class="experience">
+                    <h4>2017-2017</h4>
+                    <h4>Audi AG</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe odio, asperiores quos voluptatem, exercitationem reprehenderit reiciendis quia, aperiam minus possimus dolorem! Reiciendis deleniti ad at voluptatem quam odit similique recusandae quis iste esse assumenda adipisci beatae voluptatibus ullam nulla, odio fugiat expedita quos ratione tenetur alias libero deserunt. Distinctio natus aliquam eum nulla in at autem ipsam vel accusantium.</p>
+                </div>
+                <h3>Studies</h3>   
+                <div class="studies">
+                    <h4>2013-2018</h4>
+                    <h4>Hanken School of Economics</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla laborum, alias, laboriosam nisi ad expedita officia ducimus vitae illo mollitia, atque suscipit omnis maiores cum perspiciatis veritatis dicta aliquid adipisci quas hic corporis. Atque quis consectetur deleniti fugit temporibus optio?   </p>
+                </div>
+                <div class="studies">
+                    <h4>2016-2017</h4>
+                    <h4>WFI Ingolstadt School of Management</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestias, libero eum saepe voluptatem ipsa expedita tempore adipisci vero odit perferendis alias quaerat nihil a! Et dolores explicabo deleniti optio nostrum incidunt officiis quae.</p>
+                </div>
+                <div class="studies">
+                    <h4>2010-2013</h4>
+                    <h4>Abo Akademi</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam eaque qui enim ea libero consequuntur ipsum rerum non provident vel similique, nihil quod, odit tempore maiores saepe repellat nostrum laudantium voluptatem molestias. Voluptatem nobis fugiat sint quasi maxime iure enim asperiores quam, harum velit incidunt? Pariatur numquam placeat earum cum?</p>
+                </div>
         </section>
     </main>
     <footer>
