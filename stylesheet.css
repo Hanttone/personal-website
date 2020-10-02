@@ -44,10 +44,10 @@ a {
     color: #03251b;
 }
 
-/* Interests & Contact */
+/*Me img & About me*/
 
 .mewrapper {
-    height: 40vh;
+    height: 52vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,6 +57,34 @@ a {
     width: 55%;
     border-radius: 50%;
 }
+
+.headerwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutmeheader {
+    width: 65%;
+    height: 8vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.textwrapper {
+    text-align: justify;
+    line-height: 1.5;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15vh;
+
+}
+
+/* Skills & Interests */
 
 .skills, .interests {
     display: grid;
@@ -109,6 +137,31 @@ a {
 
 .hobbies {
     margin-top: 10%;
+}
+
+/*footer*/
+footer {
+    background-color: #889bb6;
+    margin 0 auto;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #cfd8d5;
+    width: 100%;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    margin: 0 auto;
+}
+
+.contactwrapper {
+    text-align: center;
+}
+
+.contact {
+    margin: 0 auto;
 }
 
 @media (orientation: landscape) {
