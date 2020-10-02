@@ -3,6 +3,7 @@ body, html {
     padding: 0 auto;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    background-color: #e1e4e3;
 }
 
 /* BANNER */
@@ -57,6 +58,58 @@ a {
     border-radius: 50%;
 }
 
+/*.talents {
+    background-color: #cfd8d5;
+    width: 95%;
+    height: 80vh;
+}*/
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(1.5, 1fr 2fr);
+    gap: 1.5%;
+    height: 85vh;
+    padding: 2% 2%;
+    margin: 0;
+}
+
+.skill {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill:hover {
+    box-shadow: 2px 2px 5px #535353;
+}
+
+.top {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    grid-row: span 1;
+    grid-column: 1 / -1;
+    background-color: #889bb6;
+    margin: 0;
+}
+
+.big {
+    grid-row: span 3;
+    grid-column: span 1;
+    background-color: #597fb4;
+}
+
+.medium {
+    grid-row: span 2;
+    background-color: #b3d1c0;
+}
+
+.small {
+    grid-row: span 1;
+    background-color: #f8f4db;
+}
+
 @media (orientation: landscape) {
 
     .bannerimg {
@@ -74,4 +127,12 @@ a {
     .me {
         width: 35%;
     }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        grid-template-rows: repeat(3, 1fr 2fr);
+        grid-auto-flow: dense;
+    }
+
 }
