@@ -1,11 +1,29 @@
 body, html {
     margin: 0 auto;
     padding: 0 auto;
-    font-family: 'Cutive Mono', monospace, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
+/* BANNER */
+
+.bannerimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    background-image: url("banner.jpg");
+    background-size: auto 100vh;
+    background-repeat: no-repeat;
+    color: #cfd8d5;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
 /* NAVIGATION */
+
 .navwrapper {
     width: 100%;
     display: flex;
@@ -28,21 +46,6 @@ a {
     text-decoration: none;
     color: #003B20; 
     font-weight: bolder;
-}
-
-/* BANNER */
-
-.bannerimg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 100vh;
-    background-image: url("banner.jpg");
-    background-size: auto 100vh;
-    background-repeat: no-repeat;
-    color: #cfd8d5;
-    margin: 0 auto;
 }
 
 /* Interests & Contact */
