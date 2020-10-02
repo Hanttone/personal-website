@@ -25,37 +25,37 @@ body, html {
 /* NAVIGATION */
 
 .navwrapper {
-    width: 100%;
-    display: flex;
     padding-left: 0;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-around;
-}
-.logo {
-    height: 2rem;
-    width: auto;
+    height: 5vh;
 }
 
 .navitem {
-    display: flex;
     list-style: none;
-    justify-content: center;
+    display: flex;
     align-items: center;
 }
 
 a {
     text-decoration: none;
-    color: #003B20; 
-    font-weight: bolder;
+    color: #03251b;
 }
 
 /* Interests & Contact */
+
 .mewrapper {
     text-align: center;
-    margin-top: 10%;
 }
 
 .me {
-    height: auto;
-    width: 40%;
+    width: 50%;
     border-radius: 50%;
+}
+
+@media (orientation: landscape) {
+    .bannerimg {
+        background-size: 100% 100vh;
+    }
 }
