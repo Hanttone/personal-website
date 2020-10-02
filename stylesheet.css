@@ -46,16 +46,32 @@ a {
 /* Interests & Contact */
 
 .mewrapper {
-    text-align: center;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .me {
-    width: 50%;
+    width: 55%;
     border-radius: 50%;
 }
 
 @media (orientation: landscape) {
+
     .bannerimg {
         background-size: 100% 100vh;
+    }
+
+    .navwrapper {
+        height: 15vh;
+    }
+
+    .mewrapper {
+        height: 90vh;
+    }
+
+    .me {
+        width: 35%;
     }
 }
