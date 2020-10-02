@@ -158,10 +158,13 @@ h5 {
 
 .contactwrapper {
     text-align: center;
+    padding-bottom: 3vh;
 }
 
 .contact {
     margin: 0 auto;
+    color: #cfd8d5;
+    font-size: 0.9rem;
 }
 
 @media (orientation: landscape) {
