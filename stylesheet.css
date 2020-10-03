@@ -173,18 +173,34 @@ h5 {
 }
 
 /* Work */
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+    height: 18vh;
+    margin-bottom: 5%;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 2%;
+    background-color: rgba(136, 155, 182, 0.8);
+    color: #cfd8d5;
+    padding-left: 5%;
+    font-size: 0.8rem;
+}
+
 .work {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    width: auto;
-    height: 15vh;
-    margin: 0 auto;
-    padding-bottom: 2%;
-    padding-right: 5%;
-    border-top-left-radius: 25%;
-    border-color:  #889bb6;
-    border-width: 50px;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    background-color: rgba(136, 155, 182, 0.8);
+    margin-left: 8%;
+    padding-right: 5%; 
 }
  .waldner {
     background-image: url("waldner.jpg");
@@ -192,6 +208,10 @@ h5 {
     background-repeat: no-repeat;
     background-position: 0% 35%;
     margin-left: 5%;
+ }
+
+ .dividor {
+     height: 50vh;
  }
 
 @media (orientation: landscape) {
