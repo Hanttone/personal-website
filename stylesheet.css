@@ -238,14 +238,17 @@ h3 {
  }
 
  .dividor {
-     height: 40vh;
+     height: 50vh;
+ }
+
+ .dividor2 {
+    height: 70vh;
  }
 
  p {
     margin-right: 5%;
     text-align: justify;
     line-height: 1.5;
-    margin-bottom: 10vh;
  }
 
 @media (orientation: landscape) {
