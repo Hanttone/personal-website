@@ -15,8 +15,8 @@
         <nav class="navigation">
             <ul class="navwrapper">
                 <li class="navitem"><a href="#">Home</a></li>
-                <li class="navitem"><a href="#">Contact</a></li>
-                <li class="navitem"><a href="#">About me</a></li>
+                <li class="navitem"><a href="#aboutme">About me</a></li>
+                <li class="navitem"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -27,7 +27,7 @@
         <section class="aboutme">
             <article>
                 <div class="headerwrap">
-                    <h2 class="aboutmeheader">About me</h2>
+                    <h2 class="aboutmeheader" id="aboutme">About me</h2>
                 </div>
                 <div class="textwrapper"> 
                     <p>Welcome to my home page. <strong>My name is Henna</strong> and I am a coder from Finland, currently living in Germany. My current interests lie in mainly Web Development and Software Development. The languages I am using are CSS, HTML, JavaScript and Python.</p>
@@ -63,9 +63,6 @@
                 <li class="interest small">Swimming</li>
             </ul>
         </section>
-        <section class="contactinfo">
-            
-        </section>
         <section class="links">
             <a href="">Github</a>
             <a href="">Linkedin</a>
@@ -73,11 +70,11 @@
             <a href="">Codepen</a>
         </section>
         <section class="cv">
-            <h2>CV</h2>
+            <h2 class="cvheader">CV</h2>
             <h3>Work Experience</h3>
                 <div class="experience">
                     <h4>2019-2020</h4>
-                    <h4>Waldner Laboreinrichtungen</h4>
+                    <h4 class="work waldner">Waldner Laboreinrichtungen</h4>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, doloremque. Dolores est quas necessitatibus officia aliquam a laudantium minus voluptates quidem? Sed ullam a incidunt molestiae soluta dolor, quae voluptatem! Culpa pariatur consectetur rem deserunt sequi quibusdam ad cum tempore delectus non! Perspiciatis pariatur aut eaque in odit consectetur facere.</p>
                 </div>
                 <div class="experience">
@@ -90,7 +87,7 @@
                     <h4>Audi AG</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe odio, asperiores quos voluptatem, exercitationem reprehenderit reiciendis quia, aperiam minus possimus dolorem! Reiciendis deleniti ad at voluptatem quam odit similique recusandae quis iste esse assumenda adipisci beatae voluptatibus ullam nulla, odio fugiat expedita quos ratione tenetur alias libero deserunt. Distinctio natus aliquam eum nulla in at autem ipsam vel accusantium.</p>
                 </div>
-                <h3>Studies</h3>   
+                <h3 class="studiesheader">Studies</h3>   
                 <div class="studies">
                     <h4>2013-2018</h4>
                     <h4>Hanken School of Economics</h4>
@@ -109,7 +106,7 @@
         </section>
     </main>
     <footer>
-        <h5>Contact Information</h5>
+        <h5 id="contact">Contact Information</h5>
         <div class="contact contactwrapper">
             <p class="contact">Wangen im Allgäu</p>
             <p class="contact">+49 1578 8720 830</p>

@@ -44,6 +44,10 @@ a {
     color: #03251b;
 }
 
+a:hover {
+    color: #3f806c;
+}
+
 /*Me img & About me*/
 
 .mewrapper {
@@ -64,7 +68,7 @@ a {
     align-items: center;
 }
 
-.aboutmeheader {
+.aboutmeheader, .cvheader, .studiesheader {
     width: 65%;
     height: 8vh;
     font-family: 'Raleway', sans-serif;
@@ -140,6 +144,7 @@ a {
 }
 
 /*footer*/
+
 footer {
     background-color: #889bb6;
     margin 0 auto;
