@@ -230,15 +230,15 @@ h3 {
  }
 
  .audi{
-     background-image: url("audi.jpg");
-     background-size: 100% auto;
-     background-repeat: no-repeat;
-     background-position: 0% 35%;
-     margin-left: 5%;
+    background-image: url("audi.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+    margin-left: 5%;
  }
 
  .dividor {
-     height: 50vh;
+    height: 50vh;
  }
 
  .dividor2 {
@@ -252,6 +252,23 @@ h3 {
  }
 
  /* Studies */
+
+ .uni {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    background-color: white;
+ }
+
+ .wfi {
+    background-image: url("wfi.jpg");
+    background-size: 332% auto;
+    background-repeat: no-repeat;
+    background-position: 38.5% 0%;
+    width: 80%;
+    height: 40vh;
+    border-radius: 50%;
+ }
 
 @media (orientation: landscape) {
 
