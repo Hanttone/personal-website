@@ -172,6 +172,28 @@ h5 {
     font-size: 0.9rem;
 }
 
+/* Work */
+.work {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: auto;
+    height: 15vh;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    border-top-left-radius: 25%;
+    border-color:  #889bb6;
+    border-width: 50px;
+}
+ .waldner {
+    background-image: url("waldner.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+    margin-left: 5%;
+ }
+
 @media (orientation: landscape) {
 
     .bannerimg {
@@ -203,6 +225,16 @@ h5 {
 
     .hobbies {
         margin-top: 5%;
+    }
+
+    .work {
+        height: 45vh;
+    }
+
+    .waldner {
+        background-size: 100% auto;
+        background-position: 0% 40%;
+        margin-left: 3%;
     }
 
 }
