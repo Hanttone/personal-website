@@ -6,6 +6,10 @@ body, html {
     background-color: #e1e4e3;
 }
 
+p {
+    line-height: 1.5;
+}
+
 /* BANNER */
 
 .bannerimg {
@@ -391,16 +395,54 @@ h5 {
 
 }
 
-@media (max-width: 2400px) {
+@media (min-width: 1000px) {
     .bannerimg {
         font-size: 3rem;
     }
 
     .navitem {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .mewrapper {
+        height: 50vh;
+        margin-top: 8vh;
+        margin-bottom: 15vh;
     }
 
     .me {
         width: 25%;
+    }
+
+    .aboutmeheader, .cvheader, .studiesheader, .resources {
+        font-size: 2rem;
+    }
+
+    .headerwrap {  
+        margin-bottom: 5vh;
+    }
+
+    .textwrapper {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    p {
+        line-height: 2;
+        font-size: 1.2rem;
+    }
+
+    .links {
+        grid-template-rows: 3fr 1fr;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .link {
+        width: 20%;
+    }
+
+    .imggrid {
+        display: flex;
+        justify-content: center;
     }
 }
