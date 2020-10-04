@@ -154,8 +154,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin: 10vh 5%;
 }
 
 .resources {
@@ -164,10 +163,10 @@ p {
 }
 
 .imggrid {
-    width: 50%;
-    height: auto;
-    justify-self: center;
-    align-self: center;
+    width: 100%;
+    height: auto;  
+    display: flex;
+    justify-content: center;
 }
 
 .imggrid:focus {
@@ -175,9 +174,11 @@ p {
 }
 
 .link {
-    width: 50%;
+    width: 30%;
     height: auto;
+    align-self: center;
 }
+
 /* CV Work */
 
 h3 {
@@ -219,6 +220,11 @@ h3 {
     padding-right: 5%; 
     font-style: italic;
 }
+
+.text {
+    margin-right: 5%;
+}
+
  .waldner {
     background-image: url("waldner.jpg");
     background-size: 100% auto;
@@ -267,7 +273,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: 38.5% 30%;
     width: 80%;
-    height: 42vh;
+    height: 44vh;
     border-radius: 50%;
     margin-left: 10%;
     background-color: white;
@@ -276,6 +282,8 @@ h3 {
 .unititle {
     font-size: 1.2rem;
     text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .years {
@@ -505,7 +513,7 @@ h5 {
     }
      
     .text {
-        margin-right: 11%;
+        margin-right: 10%;
     }
 
     .studieswrapper {
