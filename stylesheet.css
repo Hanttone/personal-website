@@ -210,14 +210,14 @@ h3 {
 
 .work {
     display: flex;
-    justify-content: flex-end;
+    //justify-content: flex-end;
     align-items: center;
     width: 100%;
     height: 5vh;
     color: #f8faf9;
     background-color: rgba(136, 155, 182, 0.8);
     margin-left: 8%;
-    padding-right: 5%; 
+    padding-left: 5%; 
     font-style: italic;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -303,6 +303,10 @@ h3 {
 .uni:hover {
     box-shadow: 2px 2px 5px #535353;
 }   
+
+.linkt:focus {
+    outline: none;  
+}
 
 /*footer*/
 
@@ -420,6 +424,7 @@ h5 {
 }
 
 @media (min-width: 1000px) {
+
     .bannerimg {
         font-size: 3rem;
     }
@@ -467,7 +472,7 @@ h5 {
         gap: 2%;
     }
 
-    .skill, .interest{
+    .skill, .interest {
         font-size: 1rem;
     }
 
@@ -476,18 +481,27 @@ h5 {
         margin-bottom: 10vh;
     }
 
+    .resources {
+        margin-bottom: 5vh;
+    }
+
     .links {
         grid-template-rows: 1fr 1fr;
         margin-right: 10%;
         margin-left: 10%;
-    }
+    }   
 
     .imggrid {
+        width: 100%;
+        height: auto;  
         display: flex;
         justify-content: center;
-        width: 10%;
+    }
+
+    .link {
+        width: 20%;
         height: auto;
-        margin-top: 5vh;
+        align-self: center;
     }
 
     h3 {
@@ -510,7 +524,7 @@ h5 {
     .work {
         font-size: 1.8rem;
         margin-bottom: 10vh;
-        padding-right: 20%;
+        padding-left: 20%;
     }
 
        
@@ -559,7 +573,7 @@ h5 {
         grid-row: 2;
     }
 
-    .link {
+    .linkt {
         justify-self: center;
         align-self: center;
         width: 100%;
