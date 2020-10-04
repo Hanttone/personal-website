@@ -30,7 +30,7 @@ body, html {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    height: 5vh;
+    height: 8vh;
 }
 
 .navitem {
@@ -72,7 +72,7 @@ a:focus {
     align-items: center;
 }
 
-.aboutmeheader, .cvheader, .studiesheader {
+.aboutmeheader, .cvheader, .studiesheader, .resources {
     width: 65%;
     height: 8vh;
     font-family: 'Raleway', sans-serif;
@@ -112,18 +112,15 @@ a:focus {
     font-size: 0.8rem;
 }
 
-.skill:hover, .interest:hover, .unilink:hover {
+/*.skill:hover, .interest:hover, .unilink:hover {
     box-shadow: 2px 2px 5px #535353;
-}
+}*/
 
 .top {
     font-family: 'Raleway', sans-serif;
-    color: #cfd8d5;
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     grid-row: span 1;
     grid-column: 1 / -1;
-    background-color: #889bb6;
     margin: 0;
 }
 
@@ -149,16 +146,29 @@ a:focus {
 
 /* Links to resources */
 
-.imggrid {
+.links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
-.link{
+.resources {
+    grid-row: 1;
+    grid-column: span 3;
+}
+
+.imggrid {
     width: 50%;
     height: auto;
     justify-self: center;
     align-self: center;
+}
+
+.link {
+    width: 50%;
+    height: auto;
 }
 /* CV Work */
 
@@ -184,7 +194,7 @@ h3 {
     width: 100%;
     margin-left: 2%;
     background-color: rgba(136, 155, 182, 0.8);
-    color: #cfd8d5;
+    color: #f8faf9;
     padding-left: 5%;
     font-size: 0.8rem;
 }
@@ -195,7 +205,7 @@ h3 {
     align-items: center;
     width: 100%;
     height: 5vh;
-    color: #cfd8d5;
+    color: #f8faf9;
     background-color: rgba(136, 155, 182, 0.8);
     margin-left: 8%;
     padding-right: 5%; 
@@ -282,7 +292,7 @@ footer {
 h5 {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    color: #cfd8d5;
+    color: #f8faf9;
     width: 100%;
     text-align: center;
     padding-top: 3vh;
@@ -296,7 +306,7 @@ h5 {
 
 .contact {
     margin: 0 auto;
-    color: #cfd8d5;
+    color: #f8faf9;
     font-size: 0.9rem;
     text-align: center;
 }
@@ -365,4 +375,24 @@ h5 {
         flex-wrap: wrap;
     }
 
+    .links {
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+    }
+
+    .dividor {
+        height: 55vh;
+    }
+
+
+    .dividor2 {
+        height: 80vh;
+    }
+
+}
+
+@media (max-width: 2400px) {
+    body {
+        background-color: hotpink;
+    }
 }
