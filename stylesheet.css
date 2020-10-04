@@ -115,6 +115,7 @@ p {
     justify-content: center;
     align-items: center;
     font-size: 0.8rem;
+    border-radius: 10px;
 }
 
 .unilink:hover {
@@ -396,7 +397,7 @@ h5 {
     }
 
     .navitem {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .mewrapper {
@@ -425,6 +426,26 @@ h5 {
     p {
         line-height: 2;
         font-size: 1.2rem;
+    }
+
+    .talents, .hobbies {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .skills, .interests {
+        height: 50vh;
+        padding: 0 auto;
+        gap: 2%;
+    }
+
+    .skill, .interest{
+        font-size: 1rem;
+    }
+
+    .top {
+        font-size: 2rem;
+        margin-bottom: 10vh;
     }
 
     .links {
