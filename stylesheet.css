@@ -109,16 +109,14 @@ p {
     margin: 0;
 }
 
-.skill, .interest{
+.skill, .interest {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     border-radius: 10px;
 }
-
-
 
 .top {
     font-family: 'Raleway', sans-serif;
@@ -250,11 +248,11 @@ h3 {
  }
 
  .dividor {
-    height: 50vh;
+    height: 45vh;
  }
 
  .dividor2 {
-    height: 70vh;
+    height: 65vh;
  }
 
  /* Studies */
@@ -350,6 +348,10 @@ h5 {
         grid-auto-flow: dense;
     }
 
+    .skill, .interest {
+        font-size: 1rem;    
+    }
+
     .top {
         grid-row: span 2;
     }
@@ -368,6 +370,7 @@ h5 {
 
     .work {
         height: 12vh;
+        padding-right: 10%;
         font-size: 1.2rem;
     }
 
@@ -379,7 +382,7 @@ h5 {
     .wfi {
         width: 40%;
         margin-left: 30%;
-        height: 75vh;
+        height: 71vh;
         background-color: white;
         background-position: 38.5% 50%;
     }
@@ -395,12 +398,12 @@ h5 {
     }
 
     .dividor {
-        height: 55vh;
+        height: 52vh;
     }
 
 
     .dividor2 {
-        height: 80vh;
+        height: 75vh;
     }
 
 }
