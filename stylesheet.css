@@ -392,7 +392,15 @@ h5 {
 }
 
 @media (max-width: 2400px) {
-    body {
-        background-color: hotpink;
+    .bannerimg {
+        font-size: 3rem;
+    }
+
+    .navitem {
+        font-size: 1.5rem;
+    }
+
+    .me {
+        width: 25%;
     }
 }
