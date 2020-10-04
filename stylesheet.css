@@ -428,17 +428,17 @@ h5 {
     }
 
     .links {
-        grid-template-rows: 3fr 1fr;
+        grid-template-rows: 1fr 1fr;
         margin-right: 10%;
         margin-left: 10%;
-    }
-    .link {
-        width: 20%;
     }
 
     .imggrid {
         display: flex;
         justify-content: center;
+        width: 10%;
+        height: auto;
+        margin-top: 5vh;
     }
 
     h3 {
@@ -539,5 +539,19 @@ h5 {
     .uni3 {
         grid-column: 3;
         grid-row: 3;
+    }
+
+    h5 {
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    }
+
+    .contactwrapper {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contact {
+        font-size: 1rem;
     }
 }
