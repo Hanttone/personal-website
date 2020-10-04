@@ -204,6 +204,8 @@ h3 {
     color: #f8faf9;
     padding-left: 5%;
     font-size: 0.8rem;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
 }
 
 .work {
@@ -217,6 +219,8 @@ h3 {
     margin-left: 8%;
     padding-right: 5%; 
     font-style: italic;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .text {
@@ -229,6 +233,8 @@ h3 {
     background-repeat: no-repeat;
     background-position: 0% 35%;
     margin-left: 5%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
  }
 
  .dell {
@@ -237,6 +243,8 @@ h3 {
     background-repeat: no-repeat;
     background-position: 0% 35%;
     margin-left: 5%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
  }
 
  .audi{
@@ -245,6 +253,8 @@ h3 {
     background-repeat: no-repeat;
     background-position: 0% 35%;
     margin-left: 5%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
  }
 
  .dividor {
@@ -327,6 +337,7 @@ h5 {
 
     .bannerimg {
         background-size: 100% 100vh;
+        font-size: 2rem;
     }
 
     .navwrapper {
@@ -354,6 +365,7 @@ h5 {
 
     .top {
         grid-row: span 2;
+        font-size: 1.5rem;
     }
 
     .hobbies {
@@ -400,7 +412,6 @@ h5 {
     .dividor {
         height: 52vh;
     }
-
 
     .dividor2 {
         height: 75vh;
